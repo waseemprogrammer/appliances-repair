@@ -4,7 +4,6 @@ wp-includes/
 
 # Configs (local to server, shouldn't be public)
 wp-config.php
-wp-config-sample.php
 
 # Ignore everything in wp-content except custom theme/plugin
 wp-content/*
