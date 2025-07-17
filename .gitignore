@@ -9,6 +9,7 @@ wp-config.php
 wp-content/*
 !wp-content/themes/
 !wp-content/themes/kadence/
+!wp-content/uploads/
 !wp-content/plugins/
 # !wp-content/plugins/pro-elements/
 
@@ -20,7 +21,6 @@ wp-content/plugins/*/*
 # !wp-content/plugins/pro-elements/**
 
 # Ignore uploads and cache
-wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/backups/
