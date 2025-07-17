@@ -11,14 +11,14 @@ wp-content/*
 !wp-content/themes/kadence/
 !wp-content/uploads/
 !wp-content/plugins/
-# !wp-content/plugins/pro-elements/
 
 # Still ignore everything *inside* plugins/themes folders
 wp-content/themes/*/*
 !wp-content/themes/kadence/**
 
 wp-content/plugins/*/*
-# !wp-content/plugins/pro-elements/**
+!wp-content/plugins/pro-elements/
+!wp-content/plugins/elementor/
 
 # Ignore uploads and cache
 wp-content/cache/
