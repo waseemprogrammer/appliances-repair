@@ -49,7 +49,6 @@ Thumbs.db
 # Archives & backups
 *.zip
 *.tar.gz
-*.sql
 *.sqlite
 *.db
 *.old
