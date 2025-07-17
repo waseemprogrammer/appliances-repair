@@ -1,0 +1,56 @@
+# WordPress core (DON'T track)
+wp-admin/
+wp-includes/
+
+# Configs (local to server, shouldn't be public)
+wp-config.php
+wp-config-sample.php
+
+# Ignore everything in wp-content except custom theme/plugin
+wp-content/*
+!wp-content/themes/
+!wp-content/themes/kadence/
+!wp-content/plugins/
+# !wp-content/plugins/pro-elements/
+
+# Still ignore everything *inside* plugins/themes folders
+wp-content/themes/*/*
+!wp-content/themes/kadence/**
+
+wp-content/plugins/*/*
+# !wp-content/plugins/pro-elements/**
+
+# Ignore uploads and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/litespeed/
+wp-content/wflogs/
+
+# Elementor specific
+.elementor/
+elementor-cache/
+*.elementor*
+
+# Node/Composer/Vendor (if used)
+node_modules/
+vendor/
+.env
+
+# IDE/OS Junk
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Archives & backups
+*.zip
+*.tar.gz
+*.sql
+*.sqlite
+*.db
+*.old
